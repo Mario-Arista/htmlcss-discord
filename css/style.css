@@ -4,10 +4,26 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Whitney', sans-serif;
 }
 
 /* END Reset Rules  */
+
+/* FONT WHITNEY  */
+@font-face {
+    font-family: 'Whitney';
+    src: local('Whitney') url(../font/whitneybold.otf) format('otf');
+    src: local('Whitney') url(../font/whitneybook.otf) format('otf');
+    src: local('Whitney') url(../font/whitneybookitalic.otf) format('otf');
+    src: local('Whitney') url(../font/whitneylight.otf) format('otf');
+    src: local('Whitney') url(../font/whitneylightitalic.otf) format('otf');
+    src: local('Whitney') url(../font/whitneymedium.otf) format('otf');
+    src: local('Whitney') url(../font/whitneymediumitalic.otf) format('otf');
+    src: local('Whitney') url(../font/whitneysemibold.otf) format('otf');
+    src: local('Whitney') url(../font//WhitneySemiboldItalic.otf) format('otf');
+}
+
+/* END FONT WHITNEY  */
 
 /* Flex common general rules */
 
@@ -358,13 +374,6 @@ footer .bottom-footer .logo-footer div {
 
 }
 
-/* nav .container .login button {
-    background-color: #FCFCFE;
-    color: #2D3133;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-} */
 
 footer .bottom-footer .button-footer div {
     padding: 5px 2px;
@@ -372,10 +381,18 @@ footer .bottom-footer .button-footer div {
 
 } 
 
-footer .bottom-footer .container .button-footer {
+footer .bottom-footer .container .login {
     background-color: #4E597B;
 
+    
     padding: 5px 10px;
     border-radius: 10px;
     border: none;
+}
+
+footer .bottom-footer .container .login a {
+    background-color: none;
+
+    text-decoration: none;
+    color:  #4E597B;
 }
