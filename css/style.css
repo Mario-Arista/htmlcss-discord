@@ -158,62 +158,39 @@ header .container div button:last-child a{
 
 /* MAIN  */
 
-/* N. 1th and 3th SECTION */
+/* N. 1th, 2th and 3th SECTION */
 
 main .first .container, main .third .container {
 
-    width: 60%;
+    max-width: 1200px;
 
     margin-top: 55px;
     margin-bottom: 55px;
 }
-
-main .first .container .content, main .third .container .content {
-
-    /* TEST HEIGHT */
-    height: 500px;
-}
-
-
-main .first .container div:first-child, main .third .container div:first-child {
-
-    width: 500px;
-}
-
-main .first .container div:last-child, main .third .container div:last-child {
-    flex-grow: 1;
-}
-
-/* END N. 1th and 3th SECTION */
-
-/* N. 2th SECTION */
 
 main .second .container {
 
-    width: 60%;
+    max-width: 1200px;
 
     margin-top: 55px;
     margin-bottom: 55px;
 }
 
-main .second .container .content {
+.item-image {
 
-    /* TEST HEIGHT */
-    height: 500px;
+    width: 700px;
+    height: auto;
 }
 
 
-main .second .container div:first-child {
+
+.explanation {
     flex-grow: 1;
-
 }
 
-main .second .container div:last-child {
-    width: 500px;
 
-}
+/* END 1th, 2th and 3th SECTION */
 
-/* END N. 2th SECTION */
 
 /* 4th SECTION */
 
@@ -313,10 +290,7 @@ footer .bottom-footer .button-footer div {
 }
 
 
-main .first .container div:first-child, main .third .container div:first-child {
 
-        border-right: black 2px dashed;
-}
 
 footer .top-footer .container, footer .top-footer .container div:first-child {
     border-right: black 2px dashed;
