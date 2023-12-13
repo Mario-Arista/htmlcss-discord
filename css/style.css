@@ -1,0 +1,327 @@
+/* Reset Rules  */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* END Reset Rules  */
+
+/* Flex common general rules */
+
+.flex {
+
+display: flex;
+
+}
+
+
+.centered {
+
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+
+width: 100%;
+
+}
+
+/* END Flex common general rules */
+
+
+/* NAV Style */
+
+nav {
+    justify-content: center;
+}
+
+nav .container {
+    justify-content: space-between;
+
+    width: 60%;
+
+    padding: 5px;
+    margin: 15px;
+}
+
+nav .container .logo   {
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 250px;
+    padding-left: 2px;
+}
+
+nav .container .menu   {
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+
+    flex-grow: 1;
+
+}
+
+nav .container .menu li {
+
+    list-style: none;
+}
+
+nav .container .login   {
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 250px;
+
+    /* BORDER TEST */
+    border-left: black 2px dashed;
+}
+
+/* END NAV Style */
+
+
+/* HEADER */
+
+header .container {
+    width: 50%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 415px;
+}
+
+/* END HEADER */
+
+/* MAIN  */
+
+/* N. 1th and 3th SECTION */
+
+main .first .container, main .third .container {
+
+    width: 60%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+main .first .container .content, main .third .container .content {
+
+    /* TEST HEIGHT */
+    height: 500px;
+}
+
+
+main .first .container div:first-child, main .third .container div:first-child {
+
+    width: 500px;
+}
+
+main .first .container div:last-child, main .third .container div:last-child {
+    flex-grow: 1;
+}
+
+/* END N. 1th and 3th SECTION */
+
+/* N. 2th SECTION */
+
+main .second .container {
+
+    width: 60%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+main .second .container .content {
+
+    /* TEST HEIGHT */
+    height: 500px;
+}
+
+
+main .second .container div:first-child {
+    flex-grow: 1;
+
+}
+
+main .second .container div:last-child {
+    width: 500px;
+
+}
+
+/* END N. 2th SECTION */
+
+/* 4th SECTION */
+
+main .forth .container {
+    width: 60%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 930px;
+}
+
+/* END 4th SECTION */
+
+/* MAIN  */
+
+/* Footer */
+
+/* TOP FOOTER */
+
+footer .top-footer {
+
+    /* TEST  */
+    border-bottom: #A2A3A3 2px solid;
+}
+
+footer .top-footer .container {
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    width: 60%;
+
+    margin-top: 10px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 600px;
+
+}
+
+footer .top-footer .container div:first-child {
+    width: 370px;
+}
+
+footer .top-footer .container .watergreen {
+    flex-grow: 1;
+}
+
+/* END TOP FOOTER */
+
+/* BOTTOM FOOTER */
+
+footer .bottom-footer {
+    justify-content: center;
+    align-items: flex-end;
+    
+    padding-top: 24px;
+}
+
+footer .bottom-footer .container  {
+    justify-content: space-between;
+    align-items: center;
+
+    width: 60%;
+
+    /* TEST HEIGHT  */
+    height: 80px;
+
+}
+
+footer .bottom-footer .logo-footer div {
+    padding: 5px 2px;
+    text-align: center;
+
+}
+
+footer .bottom-footer .button-footer div {
+    padding: 5px 2px;
+    text-align: center;
+
+} 
+
+/* END BOTTOM FOOTER */
+
+/* END Footer */
+
+/* TEST PART */
+
+/*  Background Color and dashed style */
+
+/* Dashed */
+
+.dashed {
+
+    border: black 1px dashed;
+}
+
+nav .container .logo   {
+
+    border-right: black 2px dashed;
+}
+
+nav .container .login   {
+
+    border-left: black 2px dashed;
+}
+
+main .first .container div:first-child, main .third .container div:first-child {
+
+        border-right: black 2px dashed;
+}
+
+footer .top-footer .container, footer .top-footer .container div:first-child {
+    border-right: black 2px dashed;
+}
+
+footer .top-footer .container .watergreen {
+    border-right: white 1px dashed;
+}
+
+/* END Dashed */
+
+/* Background colors */
+.sky-blue {
+    background-color: #ADD8E6;
+}
+.yellow {
+
+    background-color: #DAA53B;
+}
+
+.blue {
+    background-color: #0A238B;
+}
+
+.dark-pink {
+    background-color: #EE82EE;
+}
+
+.white {
+    background-color: white;
+}
+.grey {
+    background-color: #D3D3D3;
+}
+
+.green {
+    background-color: #3F8B24;
+}
+
+.lightpink {
+    background-color: #F6BFCA;
+}
+.lightblue {
+    background-color: #2A8FF7;
+}
+
+.darkgrey {
+    background-color: #23272A;
+}
+
+.salmon {
+    background-color: #F08080;
+}
+
+.watergreen {
+    background-color: #4CB2AA;
+}
+/* END Background colors */
+
+/* END TEST PART */
