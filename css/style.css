@@ -60,7 +60,6 @@ nav .container .logo   {
     justify-content: flex-start;
     align-items: center;
 
-    width: 200px;
     padding-left: 2px;
 }
 
@@ -84,8 +83,6 @@ nav .container .login   {
     justify-content: flex-end;
     align-items: center;
 
-    width: 200px;
-
 }
 
 nav .container .login button {
@@ -103,12 +100,57 @@ nav .container .login button {
 
 header .container {
     width: 50%;
+    
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
 
-    margin-top: 55px;
-    margin-bottom: 55px;
+header h1 {
+    color: #FDFDFD;
 
-    /* TEST HEIGHT */
-    height: 415px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header p {
+    color: #FDFDFD;
+    text-align: center;
+}
+
+header .container div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container div button:first-of-type {
+
+    padding: 10px 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    border-color: #FDFDFD;
+
+    background-color: #FDFDFD;
+
+}
+
+header .container div button:first-of-type a{
+    color: #2D3133;
+    text-decoration: none;
+    
+}
+
+header .container div button:last-child {
+
+    padding: 10px 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #222629;
+    text-decoration: none;
+}
+
+header .container div button:last-child a{
+    color: #FDFDFD;
+    text-decoration: none;
 }
 
 /* END HEADER */
