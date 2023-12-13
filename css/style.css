@@ -25,17 +25,6 @@
 
 /* END FONT WHITNEY  */
 
-/* BONUS (ho cambiato direttamente il colore del svg)  */
-.wave {
-    
-    width: 100%;
-    height: 100px;
-    
-    background-image: url('../img/wave2.png');
-
-}
-
-/* BONUS  */
 
 /* Flex common general rules */
 
@@ -54,6 +43,19 @@ flex-wrap: nowrap;
 }
 
 /* END Flex common general rules */
+
+/* BONUS (ho cambiato direttamente il colore del svg)  */
+
+.wave {
+    
+    width: 100%;
+    height: 100px;
+    
+    background-image: url('../img/wave2.png');
+
+}
+
+/* END BONUS  */
 
 /* NAV & HEADER BACKGROUND IMAGE  */
 
@@ -268,9 +270,13 @@ main .forth .container p {
 }
 
 main .forth .container img {
-
+    display: block;
+    
     width: 700px; 
     height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
