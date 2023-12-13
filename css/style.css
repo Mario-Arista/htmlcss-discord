@@ -272,21 +272,60 @@ footer .top-footer .container {
 
     width: 60%;
 
-    margin-top: 10px;
-    margin-bottom: 55px;
-
-    /* TEST HEIGHT */
-    height: 600px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 
 }
 
-footer .top-footer .container div:first-child {
-    width: 370px;
+footer .top-footer .container .social {
+    width: 200px;
 }
 
-footer .top-footer .container .watergreen {
+footer .top-footer .container .social div {
+    padding-bottom: 10px;
+
+    font-size: 20px;
+
+    color: #738ADB;
+}
+
+footer .top-footer .container .social img {
+    width: 20px;
+    height: auto;
+    align-self: center;
+}
+
+footer .top-footer .container .social span {
+    color: white;
+    font-size: 10px;
+    line-height: center;
+}
+
+footer .top-footer .container .list {
     flex-grow: 1;
 }
+
+footer .top-footer .container .list .blue-text {
+    
+    font-size: 14px;
+
+    color: #738ADB;
+}
+
+footer .top-footer .container .list ul li {
+    list-style: none;
+
+} 
+
+footer .top-footer .container .list ul li a {
+
+    font-size: 12px;
+
+    text-decoration: none;
+    
+    color: white;
+} 
+
 
 /* END TOP FOOTER */
 
@@ -338,15 +377,6 @@ footer .bottom-footer .button-footer div {
 }
 
 
-
-
-footer .top-footer .container, footer .top-footer .container div:first-child {
-    border-right: black 2px dashed;
-}
-
-footer .top-footer .container .watergreen {
-    border-right: white 1px dashed;
-}
 
 /* END Dashed */
 
