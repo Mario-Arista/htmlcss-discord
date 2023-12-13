@@ -433,8 +433,7 @@ footer .bottom-footer .container .login {
     border: none;
 }
 
-footer .bottom-footer .container .login a {
-    background-color: none;
+footer .bottom-footer .container .login button {
 
     text-decoration: none;
     color:  #4E597B;
