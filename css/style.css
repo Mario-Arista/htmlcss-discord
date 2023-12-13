@@ -182,8 +182,6 @@ main .second .container {
     height: auto;
 }
 
-
-
 .explanation {
     flex-grow: 1;
 }
@@ -200,8 +198,23 @@ main .forth .container {
     margin-top: 55px;
     margin-bottom: 55px;
 
-    /* TEST HEIGHT */
-    height: 930px;
+}
+
+main .forth .container button {
+
+    padding: 10px 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+
+    border-color: #7888BF;
+
+    background-color: #7888BF;
+
+}
+
+main .forth .container button a {
+    color: #FDFDFD;
+    text-decoration: none;
 }
 
 /* END 4th SECTION */
