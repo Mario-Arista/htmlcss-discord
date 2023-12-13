@@ -200,9 +200,44 @@ main .forth .container {
 
 }
 
+main .forth .container h2 {
+
+text-align: center;
+
+padding-bottom: 30px;
+
+font-size: 30px;
+color: #222629;
+
+}
+
+main .forth .container p {
+    
+    text-align: center;
+
+    padding-bottom: 30px;
+
+    color: #222629;
+    
+}
+
+main .forth .container div {
+    text-align: center;
+    
+
+    padding-bottom: 15px;
+
+    color: #222629;
+}
+
+
+
 main .forth .container button {
 
-    padding: 10px 10px;
+    display: block;
+    margin: 0 auto;
+
+    padding: 10px 20px;
     border: black 1px solid;
     border-radius: 10px;
 
