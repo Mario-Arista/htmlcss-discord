@@ -259,15 +259,18 @@ main .forth .container button a {
 /* Footer */
 
 /* TOP FOOTER */
+footer {
 
-footer .top-footer {
+    background-color: #23272A;
 
-    /* TEST  */
+}
+footer .top-footer > .container {
+
     border-bottom: #A2A3A3 2px solid;
 }
 
 footer .top-footer .container {
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
 
     width: 60%;
@@ -355,77 +358,24 @@ footer .bottom-footer .logo-footer div {
 
 }
 
+/* nav .container .login button {
+    background-color: #FCFCFE;
+    color: #2D3133;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+} */
+
 footer .bottom-footer .button-footer div {
     padding: 5px 2px;
     text-align: center;
 
 } 
 
-/* END BOTTOM FOOTER */
+footer .bottom-footer .container .button-footer {
+    background-color: #4E597B;
 
-/* END Footer */
-
-/* TEST PART */
-
-/*  Background Color and dashed style */
-
-/* Dashed */
-
-.dashed {
-
-    border: black 1px dashed;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
 }
-
-
-
-/* END Dashed */
-
-/* Background colors */
-.sky-blue {
-    background-color: #ADD8E6;
-}
-.yellow {
-
-    background-color: #DAA53B;
-}
-
-.blue {
-    background-color: #0A238B;
-}
-
-.dark-pink {
-    background-color: #EE82EE;
-}
-
-.white {
-    background-color: white;
-}
-.grey {
-    background-color: #D3D3D3;
-}
-
-.green {
-    background-color: #3F8B24;
-}
-
-.lightpink {
-    background-color: #F6BFCA;
-}
-.lightblue {
-    background-color: #2A8FF7;
-}
-
-.darkgrey {
-    background-color: #23272A;
-}
-
-.salmon {
-    background-color: #F08080;
-}
-
-.watergreen {
-    background-color: #4CB2AA;
-}
-/* END Background colors */
-
-/* END TEST PART */
