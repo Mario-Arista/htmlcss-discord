@@ -23,17 +23,28 @@ justify-content: center;
 align-items: center;
 flex-wrap: nowrap;
 
-width: 100%;
-
 }
 
 /* END Flex common general rules */
 
+/* NAV & HEADER BACKGROUND IMAGE  */
+
+.header-row {
+
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+/* NAV & HEADER BACKGROUND IMAGE  */
 
 /* NAV Style */
 
 nav {
     justify-content: center;
+
+    /* TEST  */
+    background-color: #0A238B;
+
 }
 
 nav .container {
@@ -49,7 +60,7 @@ nav .container .logo   {
     justify-content: flex-start;
     align-items: center;
 
-    width: 250px;
+    width: 200px;
     padding-left: 2px;
 }
 
@@ -57,7 +68,7 @@ nav .container .menu   {
     justify-content: center;
     align-items: center;
 
-    gap: 5px;
+    gap: 7px;
 
     flex-grow: 1;
 
@@ -66,16 +77,23 @@ nav .container .menu   {
 nav .container .menu li {
 
     list-style: none;
+    color: #FCFCFE;
 }
 
 nav .container .login   {
     justify-content: flex-end;
     align-items: center;
 
-    width: 250px;
+    width: 200px;
 
-    /* BORDER TEST */
-    border-left: black 2px dashed;
+}
+
+nav .container .login button {
+    background-color: #FCFCFE;
+    color: #2D3133;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
 }
 
 /* END NAV Style */
