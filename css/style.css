@@ -177,15 +177,21 @@ header .container div button:last-child a{
 
 main .first .container, main .third .container {
 
-    max-width: 1200px;
+    max-width: 70%;
 
     margin-top: 55px;
     margin-bottom: 55px;
 }
 
+
+main .second {
+
+    background-color: #F3F3F3;
+}
+
 main .second .container {
 
-    max-width: 1200px;
+    max-width: 70%;
 
     margin-top: 55px;
     margin-bottom: 55px;
@@ -197,8 +203,16 @@ main .second .container {
     height: auto;
 }
 
-.explanation {
+main .second .container .explanation {
+
+    
     flex-grow: 1;
+
+}
+
+main .second .container .explanation h2, main .first .container .explanation h2, main .third .container .explanation h2  {
+    
+    margin-bottom: 20px;
 }
 
 
@@ -206,6 +220,11 @@ main .second .container {
 
 
 /* 4th SECTION */
+
+main .forth {
+
+    background-color: #F3F3F3;
+}
 
 main .forth .container {
     width: 60%;
@@ -234,6 +253,13 @@ main .forth .container p {
 
     color: #222629;
     
+}
+
+main .forth .container img {
+
+    width: 700px; 
+    height: auto;
+
 }
 
 main .forth .container div {
@@ -281,7 +307,7 @@ footer {
 }
 footer .top-footer > .container {
 
-    border-bottom: #A2A3A3 2px solid;
+    border-bottom: #738ADB 2px solid;
 }
 
 footer .top-footer .container {
