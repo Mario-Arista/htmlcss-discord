@@ -68,7 +68,7 @@ nav .container .menu   {
     justify-content: center;
     align-items: center;
 
-    gap: 7px;
+    gap: 15px;
 
     flex-grow: 1;
 
@@ -269,15 +269,6 @@ footer .bottom-footer .button-footer div {
     border: black 1px dashed;
 }
 
-nav .container .logo   {
-
-    border-right: black 2px dashed;
-}
-
-nav .container .login   {
-
-    border-left: black 2px dashed;
-}
 
 main .first .container div:first-child, main .third .container div:first-child {
 
