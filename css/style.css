@@ -245,6 +245,7 @@ main .forth {
 }
 
 main .forth .container {
+
     width: 60%;
 
     margin-top: 55px;
@@ -276,7 +277,7 @@ main .forth .container p {
 main .forth .container img {
     display: block;
     
-    width: 700px; 
+    width: 600px; 
     height: auto;
 
     margin-left: auto;
@@ -285,12 +286,22 @@ main .forth .container img {
 }
 
 main .forth .container div {
-    text-align: center;
-    
 
-    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 
     color: #222629;
+}
+
+main .forth .container .flex div {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    display: inline-block;
+
 }
 
 
@@ -362,11 +373,21 @@ footer .top-footer .container .social img {
 }
 
 footer .top-footer .container .social span {
+    display: inline-block;
     color: white;
     font-size: 10px;
     line-height: center;
+
+    padding-bottom: 10px;
 }
 
+footer .top-footer .container .social div:last-child {
+    justify-content: flex-start;
+    gap: 20px;
+
+    color: white;
+
+}
 footer .top-footer .container .list {
     flex-grow: 1;
 }
