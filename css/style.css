@@ -411,7 +411,7 @@ footer .bottom-footer {
 
 footer .bottom-footer .container  {
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
     width: 60%;
 
@@ -433,7 +433,9 @@ footer .bottom-footer .button-footer div {
 
 } 
 
-footer .bottom-footer .container .login {
+footer .bottom-footer .container .btn-footer {
+
+
     background-color: #4E597B;
 
     
@@ -442,8 +444,11 @@ footer .bottom-footer .container .login {
     border: none;
 }
 
-footer .bottom-footer .container .login button {
+footer .bottom-footer .container .btn-footer a {
+
     display: inline-block;
     text-decoration: none;
-    color:  #4E597B;
+    color: white;
+    font-size: 0.8em;
+
 }
