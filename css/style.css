@@ -4,25 +4,25 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Whitney', sans-serif;
 }
 
 /* END Reset Rules  */
 
 /* FONT WHITNEY  */
 @font-face {
-    font-family: 'Whitney';
-    src: local('Whitney') url(../font/whitneybold.otf) format('otf');
-    src: local('Whitney') url(../font/whitneybook.otf) format('otf');
-    src: local('Whitney') url(../font/whitneybookitalic.otf) format('otf');
-    src: local('Whitney') url(../font/whitneylight.otf) format('otf');
-    src: local('Whitney') url(../font/whitneylightitalic.otf) format('otf');
-    src: local('Whitney') url(../font/whitneymedium.otf) format('otf');
-    src: local('Whitney') url(../font/whitneymediumitalic.otf) format('otf');
-    src: local('Whitney') url(../font/whitneysemibold.otf) format('otf');
-    src: local('Whitney') url(../font//WhitneySemiboldItalic.otf) format('otf');
+    font-family: 'Whitney bold ';
+    src: url('../font/whitneybold.otf');
+
+}
+@font-face {
+    font-family:'Whitney bold ';
+    src: url('../font/whitneymedium.otf');
 }
 
+body{
+    font-family: 'Whitney', sans-serif;
+    line-height: 1.4em;
+}
 /* END FONT WHITNEY  */
 
 
@@ -55,6 +55,10 @@ flex-wrap: nowrap;
 
 }
 
+.reverse {
+    transform: rotate(180deg);
+}
+
 /* END BONUS  */
 
 /* NAV & HEADER BACKGROUND IMAGE  */
@@ -79,7 +83,7 @@ nav .container {
 
     width: 60%;
 
-    padding: 5px;
+    padding: 20px;
     margin: 15px;
 }
 
@@ -115,8 +119,8 @@ nav .container .login   {
 nav .container .login button {
     background-color: #FCFCFE;
     color: #2D3133;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border-radius: 18px;
     border: none;
 }
 
@@ -128,8 +132,8 @@ nav .container .login button {
 header .container:first-child {
     width: 50%;
     
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header h1 {
@@ -143,7 +147,7 @@ header p {
     color: #FDFDFD;
     text-align: center;
 
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 header .container:first-child .container {
@@ -213,7 +217,7 @@ main .second .container {
 
 .item-image {
 
-    width: 700px;
+    width: 100%;
     height: auto;
 }
 
@@ -335,7 +339,7 @@ footer .top-footer .container {
     width: 60%;
 
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 20px;
 
 }
 
@@ -371,17 +375,22 @@ footer .top-footer .container .list .blue-text {
     
     font-size: 14px;
 
+    padding-left: 10px;
+
     color: #738ADB;
 }
 
 footer .top-footer .container .list ul li {
     list-style: none;
+    padding-left: 10px;
 
 } 
 
 footer .top-footer .container .list ul li a {
 
     font-size: 12px;
+
+    line-height: 1.5em;
 
     text-decoration: none;
     
@@ -434,7 +443,7 @@ footer .bottom-footer .container .login {
 }
 
 footer .bottom-footer .container .login button {
-
+    display: inline-block;
     text-decoration: none;
     color:  #4E597B;
 }
